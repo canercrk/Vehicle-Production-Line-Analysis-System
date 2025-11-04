@@ -1,6 +1,6 @@
 # Araç Üretim Hattı Analiz Sistemi
 
-## 🚀 Link
+## 🚀 Link(Tıkla)
 
 [Vehicle Production Line Analysis](https://vehicle-production-line-analysis.netlify.app)
 ## Arka Plan ve Genel Bakış
