@@ -1,5 +1,8 @@
 # Araç Üretim Hattı Analiz Sistemi
 
+## 🚀 Link
+
+[Vehicle Production Line Analysis](https://vehicle-production-line-analysis.netlify.app)
 ## Arka Plan ve Genel Bakış
 
 Araç üretim operasyonları, operasyonel verimliliği olumsuz etkileyen sistematik plan-gerçekleşme sapmaları yaşamaktadır. Bu sapmalar, yüksek envanter seviyeleri, üretim hattında kuyruk birikmesi, artan operasyonel maliyetler ve sipariş teslimat gecikmeleri şeklinde kendini göstermektedir. Ek operasyonel zorluklar arasında makine arızaları, kalite tutarsızlıkları ve bunun sonucunda oluşan müşteri memnuniyetsizliği bulunmaktadır.
@@ -7,10 +10,6 @@ Araç üretim operasyonları, operasyonel verimliliği olumsuz etkileyen sistema
 Bu analiz sistemi, bu belirtilerin arkasındaki kök nedenleri ve sorumlu operasyonları tespit etmek, üretim hattı performansını sistematik olarak iyileştirmek ve iyileştirme sonrası kazançları simüle etmek için geliştirilmiştir. Sistem, üretim verilerini otomatik analiz ve interaktif simülasyon yetenekleri aracılığıyla eyleme dönüştürülebilir içgörülere çevirerek veri odaklı karar almayı mümkün kılmaktadır.
 
 Proje, endüstriyel süreç iyileştirmede yaygın olarak kullanılan temel bir Six Sigma çerçevesi olan DMAIC (Define-Measure-Analyze-Improve-Control - Tanımla-Ölç-Analiz Et-İyileştir-Kontrol Et) metodolojisini uygulamaktadır. Bu yapısal yaklaşım, her aşamanın sistematik olarak ilerlemesini, kararların somut verilere dayanmasını ve çözümlerin sürdürülebilir olmasını sağlamaktadır.
-
-## 🚀 Link
-
-[https://your-site-name.netlify.app](https://your-site-name.netlify.app)
 ---
 
 ## Veri Yapısı
