@@ -10,6 +10,7 @@ Araç üretim operasyonları, operasyonel verimliliği olumsuz etkileyen sistema
 Bu analiz sistemi, bu belirtilerin arkasındaki kök nedenleri ve sorumlu operasyonları tespit etmek, üretim hattı performansını sistematik olarak iyileştirmek ve iyileştirme sonrası kazançları simüle etmek için geliştirilmiştir. Sistem, üretim verilerini otomatik analiz ve interaktif simülasyon yetenekleri aracılığıyla eyleme dönüştürülebilir içgörülere çevirerek veri odaklı karar almayı mümkün kılmaktadır.
 
 Proje, endüstriyel süreç iyileştirmede yaygın olarak kullanılan temel bir Six Sigma çerçevesi olan DMAIC (Define-Measure-Analyze-Improve-Control - Tanımla-Ölç-Analiz Et-İyileştir-Kontrol Et) metodolojisini uygulamaktadır. Bu yapısal yaklaşım, her aşamanın sistematik olarak ilerlemesini, kararların somut verilere dayanmasını ve çözümlerin sürdürülebilir olmasını sağlamaktadır.
+
 ---
 
 ## Veri Yapısı
