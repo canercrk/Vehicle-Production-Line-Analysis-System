@@ -193,7 +193,7 @@ def prepare_detail_table_data(data, vehicles):
         is_bottleneck = avg > bottleneck_threshold
         is_efficient = avg < efficient_threshold
         
-        status = '🔴 Darboğaz' if is_bottleneck else ('🟢 Verimli' if is_efficient else '🟡 Normal')
+        status = 'Darboğaz' if is_bottleneck else ('Verimli' if is_efficient else 'Normal')
         
         table_data.append({
             'operation': operation,
@@ -237,7 +237,6 @@ def generate_recommendations(data, vehicles):
     bottlenecks = [op for op in operation_avgs if op['avg'] > bottleneck_threshold]
     for op in bottlenecks:
         recommendations.append({
-            'icon': '🔴',
             'text': f"{op['name']} işlemi darboğaz oluşturuyor ({op['avg']:.1f} saat). Bu işlem için ek kaynak tahsis edin veya otomasyonu düşünün."
         })
     
@@ -245,7 +244,6 @@ def generate_recommendations(data, vehicles):
     high_variance = [op for op in operation_avgs if op['variance'] > high_variance_threshold]
     for op in high_variance:
         recommendations.append({
-            'icon': '⚠️',
             'text': f"{op['name']} işleminde yüksek varyasyon ({op['variance']:.1f}) var. Bu, süreçlerdeki tutarsızlıklara işaret eder. Standart prosedürler oluşturun."
         })
     
@@ -264,12 +262,10 @@ def generate_recommendations(data, vehicles):
         least_efficient = vehicle_avgs[-1]
         
         recommendations.append({
-            'icon': '🚀',
             'text': f"En verimli araç {most_efficient['name']} ({most_efficient['avg']:.1f} saat). Bu aracın üretim süreçlerini inceleyerek en iyi uygulamaları diğerlerine aktarın."
         })
         
         recommendations.append({
-            'icon': '🐢',
             'text': f"En yavaş araç {least_efficient['name']} ({least_efficient['avg']:.1f} saat). Bu aracın üretim hattını detaylı inceleyerek yavaşlamanın temel nedenlerini belirleyin."
         })
     
@@ -280,13 +276,12 @@ def generate_recommendations(data, vehicles):
         if strong_corr:
             top_corr = strong_corr[0]
             recommendations.append({
-                'icon': '🔄',
                 'text': f"{top_corr['operation1']} ve {top_corr['operation2']} operasyonları yüksek korelasyon ({top_corr['correlation']:.2f}) gösteriyor. Bu operasyonları birleştirmeyi veya ortak kaynak kullanmayı değerlendirin."
             })
     
     return recommendations
 
-# ------------------------ GELİŞMİŞ ANALİZ FONKSİYONLARI ------------------------
+# GELİŞMİŞ ANALİZ FONKSİYONLARI
 
 # İşlem-Araç Matrisi oluşturma
 def create_operation_vehicle_matrix(data, vehicles):

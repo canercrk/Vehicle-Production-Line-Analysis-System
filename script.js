@@ -472,8 +472,7 @@ function showRecommendations() {
     analysisResults.recommendations.forEach(rec => {
         recList.innerHTML += `
             <div class="rec-item">
-                <div class="rec-icon">${rec.icon}</div>
-                <div>${rec.text}</div>
+                ${rec.text}
             </div>
         `;
     });

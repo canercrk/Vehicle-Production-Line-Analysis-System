@@ -24,7 +24,7 @@ function setupInteractiveBottleneckSimulation() {
     let html = `
         <div class="card mb-4">
             <div class="card-header">
-                <h4>🔄 İnteraktif Darboğaz İyileştirme Simülasyonu</h4>
+                <h4>İnteraktif Darboğaz İyileştirme Simülasyonu</h4>
             </div>
             <div class="card-body">
                 <p class="lead">İyileştirmek istediğiniz işlemi ve iyileştirme yüzdesini seçerek potansiyel etkiyi görebilirsiniz.</p>

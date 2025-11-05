@@ -158,7 +158,7 @@
             "slowest_vehicle": "Araç3 (48.0h)",
             "avg": 32.5,
             "variance": 126.3,
-            "status": "🟡 Normal",
+            "status": "Normal",
             "is_bottleneck": false,
             "is_efficient": false
         },
@@ -168,7 +168,7 @@
             "slowest_vehicle": "Araç3 (30.0h)",
             "avg": 23.5,
             "variance": 16.5,
-            "status": "🟢 Verimli",
+            "status": "Verimli",
             "is_bottleneck": false,
             "is_efficient": true
         },
@@ -178,7 +178,7 @@
             "slowest_vehicle": "Araç19 (45.0h)",
             "avg": 29.6,
             "variance": 62.1,
-            "status": "🟢 Verimli",
+            "status": "Verimli",
             "is_bottleneck": false,
             "is_efficient": true
         },
@@ -188,7 +188,7 @@
             "slowest_vehicle": "Araç8 (64.0h)",
             "avg": 59.6,
             "variance": 6.2,
-            "status": "🔴 Darboğaz",
+            "status": "Darboğaz",
             "is_bottleneck": true,
             "is_efficient": false
         },
@@ -198,7 +198,7 @@
             "slowest_vehicle": "Araç10 (52.0h)",
             "avg": 32.3,
             "variance": 103.8,
-            "status": "🟡 Normal",
+            "status": "Normal",
             "is_bottleneck": false,
             "is_efficient": false
         },
@@ -208,7 +208,7 @@
             "slowest_vehicle": "Araç3 (59.0h)",
             "avg": 35.7,
             "variance": 204.8,
-            "status": "🟡 Normal",
+            "status": "Normal",
             "is_bottleneck": false,
             "is_efficient": false
         },
@@ -218,7 +218,7 @@
             "slowest_vehicle": "Araç12 (60.0h)",
             "avg": 45.2,
             "variance": 103.9,
-            "status": "🔴 Darboğaz",
+            "status": "Darboğaz",
             "is_bottleneck": true,
             "is_efficient": false
         },
@@ -228,26 +228,22 @@
             "slowest_vehicle": "Araç19 (40.0h)",
             "avg": 29.2,
             "variance": 44.8,
-            "status": "🟢 Verimli",
+            "status": "Verimli",
             "is_bottleneck": false,
             "is_efficient": true
         }
     ],
     "recommendations": [
         {
-            "icon": "🔴",
             "text": "İşlem4 işlemi darboğaz oluşturuyor (59.6 saat). Bu işlem için ek kaynak tahsis edin veya otomasyonu düşünün."
         },
         {
-            "icon": "⚠️",
             "text": "İşlem6 işleminde yüksek varyasyon (204.8) var. Bu, süreçlerdeki tutarsızlıklara işaret eder. Standart prosedürler oluşturun."
         },
         {
-            "icon": "🚀",
             "text": "En verimli araç Araç7 (30.9 saat). Bu aracın üretim süreçlerini inceleyerek en iyi uygulamaları diğerlerine aktarın."
         },
         {
-            "icon": "🐢",
             "text": "En yavaş araç Araç19 (41.2 saat). Bu aracın üretim hattını detaylı inceleyerek yavaşlamanın temel nedenlerini belirleyin."
         }
     ],
